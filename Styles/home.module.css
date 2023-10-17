@@ -1,0 +1,713 @@
+.mobileFooter {
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    background-color: white;
+    /* border-bottom: 1px solid rgb(243, 237, 237); */
+    z-index: 999;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 22%);
+
+
+}
+
+
+.FotterBtnBtn {
+    background-color: #00a6ff;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.FotterBtnBtn span {
+    margin-left: 10px;
+
+}
+
+.mobileFooterCbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Headinghero {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.HeadingheroA span {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.HeadingheroB {
+
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gradienttext {
+    background: linear-gradient(to right, #ff9900, #ff00cc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradienttextH1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.gradienttextPro {
+    background: linear-gradient(to right, #00a6ff, #4400ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.LogoWebBox {
+    width: 100px;
+
+}
+
+.LogoWeb {
+    width: 100%;
+
+}
+
+.HeadingheroImg {
+    width: 65%;
+}
+
+.ProMbaBox {
+    margin-top: 50px;
+
+}
+
+.ProductHero {
+    margin-top: 50px;
+
+}
+
+.CenterBox {
+    background-color: 00a6ff;
+    display: flex;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px dotted black;
+    margin-top: 15px;
+
+
+
+}
+
+.CenterBox h1 {
+
+    margin: 0;
+
+}
+
+.ProMbaBoxBPgbox {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px dashed black;
+    display: flex;
+
+}
+
+.gradienttextProList {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.gradienttextProList li {
+    font-weight: 500;
+}
+
+.MarqueeBodx {
+    margin-top: 20px;
+}
+
+.ProMbaBoxBPgboxA h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.ProMbaBoxBPgboxB {
+    max-width: 50%;
+}
+
+.ProMbaBoxBPgboxBImg {
+
+    border-radius: 5px;
+}
+
+.tagbox {
+    display: flex;
+    align-items: center;
+}
+
+.tagItem {
+    padding: 5px;
+    background-color: #00a6ff;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.tagItem2 {
+    padding: 5px;
+    background-color: #ffa600;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.tagItemText {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.Whbox {
+    margin-top: 100px;
+}
+
+.HeroBox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroBox2A {
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.HeroBox2B img {
+    width: 100%;
+}
+
+.HeroBox2B {
+
+    padding: 10px;
+    width: 50%;
+}
+
+.FeaturesItem {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.FeaturesItemImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.FeaturesItemText {
+    margin-left: 10px;
+}
+
+.FeaturesItemText span {
+    font-weight: 500;
+}
+
+.Herovideobox {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.HeadlineCenterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+}
+
+.HeadlineCenterBox span {
+    font-size: 30px;
+}
+
+.ProcessBoxCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProcessBoxCenter span {
+    font-size: 60px;
+}
+
+.ProcessBoxCenterItemBox {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ProcessBoxCenterItem {
+    width: 23%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(100, 113, 255);
+    border-radius: 10px;
+    margin: 5px;
+    border: 1px solid rgb(233, 228, 228);
+    text-align: center;
+    color: white;
+}
+
+.PTagsBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.PTagsItem {
+    padding: 10px;
+    margin: 5px;
+    background-color: #daefff;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.PTagsItemText {
+
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.PTagsItemicon {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.PTagsItem:hover {
+    background-color: #00a6ff;
+    color: white;
+}
+
+.space50px {
+    min-height: 50px;
+}
+
+.space20px {
+    min-height: 20px;
+}
+
+.mainColor {
+
+    color: #00a6ff;
+}
+
+.PtLineTagBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #daefff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.PtLineTagItem {
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.PtLineTagItemiconText {
+
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.PTagsItemicon {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.PTagsItem:hover {
+    background-color: #00a6ff;
+    color: white;
+}
+
+.HeadlineCenterBoxFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+
+}
+
+.HeadlineCenterBoxFlex span {
+    font-size: 30px;
+}
+
+.Durationbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.DurationboxB {
+
+    margin-left: 5px;
+}
+
+.CertiBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CertiBoxA {
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.facBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Slideimg {
+    width: 400px;
+
+}
+
+.ReviewImg {
+    width: 100%;
+
+}
+
+.Pricingbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f4f7;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.Icontext {
+    display: flex;
+    align-items: center;
+}
+
+.Icontext span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.PricingboxMain {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.PricingboxB {
+    width: 50%;
+    min-height: 80px;
+}
+
+.OnlyMobile {
+    display: none;
+}
+
+.EnqBtn {
+    background-color: #00a6ff;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.CallBtn {
+    background-color: #00a6ff;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.CallBtn span {
+    margin-left: 10px;
+}
+
+.MainFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DurationboxA {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.ExpertronsBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputBox {
+
+    margin: 10px;
+
+}
+
+.CenterDilog {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox input {
+    min-width: 100%;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.inputBox select {
+    min-width: 100%;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.Loadingbox{
+    min-width: 100%;
+    min-height: 400px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+.DialogBox{
+    min-width: 100%;
+    min-height: 100px;
+    
+}
+
+.FormDonebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+}
+
+.FormDoneboxIcon span {
+    font-size: 40px;
+}
+
+.FormDoneboxText span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .ProMbaBoxBPgboxA h1 {
+        font-size: 20px;
+    }
+
+    .gradienttextProList li {
+        font-size: 14px;
+    }
+
+    .tagItem2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tagItem {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tagItemIcon {
+        font-size: 20px;
+    }
+
+    .HeroBox2 {
+        flex-wrap: wrap-reverse;
+    }
+
+    .HeroBox2A {
+        overflow: hidden;
+        width: auto;
+
+    }
+
+    .HeroBox2B {
+        overflow: hidden;
+        width: auto;
+    }
+
+    .FeaturesItemImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        min-height: 30px;
+        min-width: 30px;
+        border-radius: 50%;
+        padding: 2px;
+    }
+
+    .ProcessBoxCenter span {
+        font-size: 30px;
+    }
+
+    .ProcessBoxCenterItemBox {
+
+        flex-direction: column;
+
+
+    }
+
+    .ProcessBoxCenterItem {
+        width: 100%;
+
+    }
+
+    .PTagsBox {
+        flex-direction: column;
+    }
+
+    .PTagsItem {
+        width: 100%;
+    }
+
+
+    .HeadlineCenterBoxFlex {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .HeadlineCenterBoxFlex span {
+        font-size: 20px;
+    }
+
+    .DurationboxA {
+        font-size: 15px;
+    }
+
+    .CertiBox {
+        flex-wrap: wrap-reverse;
+    }
+
+    .CertiBoxA {
+        width: auto;
+        text-align: center;
+
+    }
+
+    .Pricingbox {
+        flex-direction: column;
+    }
+
+    .PricingboxB {
+        margin-top: 10px;
+        width: 100%;
+
+    }
+
+    .CallBtnMobile {
+        background-color: #00a6ff;
+        color: white;
+        width: fit-content;
+        padding: 5px 15px 5px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .CallBtnMobile span {
+        margin-left: 10px;
+    }
+
+    .OnlyDestop {
+        display: none;
+    }
+
+    .OnlyMobile {
+        display: block;
+    }
+
+    .FotterBtnBtn span {
+        font-size: 13px;
+
+    }
+
+    .inputBox input {
+       width: 100%s;
+        padding: 10px;
+        font-weight: bold;
+
+    }
+        
+}
